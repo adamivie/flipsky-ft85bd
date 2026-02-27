@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Arduino
+*.o
+*.elf
+*.hex
+*.bin
+build/
+
+# VS Code
+.vscode/
+
+# ROS 2
+install/
+log/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
