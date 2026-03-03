@@ -5,15 +5,15 @@
  * Tries multiple baud rates, passive listen, and active request.
  *
  * Wiring:
- *   ESP32 GPIO17 (RX) ← ESC TX
- *   ESP32 GPIO18 (TX) → ESC RX
+ *   ESP32 GPIO18 (RX) ← ESC TX
+ *   ESP32 GPIO17 (TX) → ESC RX
  *   GND ↔ GND
  */
 
 #include <FlipskyFT85BD.h>
 
-static constexpr int8_t  RX_PIN = 17;
-static constexpr int8_t  TX_PIN = 18;
+static constexpr int8_t  RX_PIN = 18;
+static constexpr int8_t  TX_PIN = 17;
 
 static const uint32_t BAUDS[] = { 460800, 115200, 9600 };
 static constexpr int NUM_BAUDS = sizeof(BAUDS) / sizeof(BAUDS[0]);

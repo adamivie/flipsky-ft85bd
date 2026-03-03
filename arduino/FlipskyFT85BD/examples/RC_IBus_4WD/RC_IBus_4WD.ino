@@ -21,7 +21,7 @@
  *
  *   FT85BD #1 (UART)       (Master:164 + Slave:115)
  *   ┌─────────────────┐
- *   │  UART TX        │──→ GPIO16  (Serial2 RX)
+ *   │  UART TX        │──→ GPIO18  (Serial2 RX)
  *   │  UART RX        │←── GPIO17  (Serial2 TX)
  *   │  5V             │──→ ESP32 VIN + iA6B VCC
  *   │  GND            │──→ common GND
